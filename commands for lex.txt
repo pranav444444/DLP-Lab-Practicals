@@ -1,0 +1,7 @@
+flex numbers.l       # Generates lex.yy.c
+
+
+gcc lex.yy.c -o lexer -ll   # Compile with GCC
+
+
+./lexer             # Run the program (Use .\lexer in PowerShell)
